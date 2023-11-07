@@ -1,0 +1,135 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* GENERAL STYLE START */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #eef7fb;
+}
+main {
+  flex-grow: 1;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+/* GENERAL STYLE END */
+/* HEADER STYLE START */
+.header__container {
+  padding-top: 31px;
+  padding-bottom: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__container__logo {
+  margin-right: 200px;
+}
+.header__container__nav__list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__container__nav__list__item__link {
+  color: #232d22;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__container__button__link {
+  border-radius: 4px;
+  border: 1px solid #232d22;
+  color: #232d22;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 11px 40px 11px 40px;
+}
+/* HEADER STYLE END */
+/* MAIN STYLE START */
+.main {
+  background-image: url("../image/tuvak-ichida-gul.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.hero__container__content__title {
+  color: #232d22;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.hero__container__content__paragraph {
+  color: rgba(35, 45, 34, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 500px;
+  margin-bottom: 50px;
+}
+.hero__container__content__linl {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  background: #232d22;
+  padding: 20px 33px 20px 33px;
+}
+/* MAIN STYLE END */
